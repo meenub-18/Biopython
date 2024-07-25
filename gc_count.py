@@ -13,6 +13,7 @@ total_length = len(DNA)
 gc_percentage = (total_gc / total_length) * 100
 
 print(gc_percentage)
+print(f"The total gc_percentage of this DNA sequence is {round(gc_percentage, 2)}%")
 
 
 
