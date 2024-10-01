@@ -18,4 +18,4 @@ CGGGGCGGGGGTGCGGGCTGACTTTCTCCCTCGCTAGGGACGCTCCGGCGCCCGAAAGGAAAGGGTGGCG'''
 
 transcript = dnaseq.maketrans("ATGC", "UACG")
 
-# print(dnaseq.translate(transcript))
+print(dnaseq.translate(transcript))
