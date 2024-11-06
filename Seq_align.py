@@ -15,7 +15,7 @@ alignments = aligner.align(seq1, seq2)
 for alignment in alignments:
     print(alignment)
 
-aligner.mode = "local"     #  We have to choose local for loacl alignment. 
+aligner.mode = "local"     #  We must choose local for local alignment. 
 
 seq3 = "AGATCTAT"
 seq4 = "GATCAT"
